@@ -1,0 +1,82 @@
+@import url("https://fonts.google.com/specimen/Muli?query=mul");
+
+html,
+body {
+  margin: 0px;
+  font-family: "Muli", sans-serif;
+  height: 100%;
+  position: relative;
+}
+.headerpg {
+  background-image: url("../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 5%;
+  height: 100%;
+}
+.logo {
+  width: 50%;
+  margin-top: 20%;
+}
+.imgright {
+  width: 50%;
+}
+.carousel-inner img {
+  margin: auto;
+}
+h5 {
+  text-align: center;
+  color: #633991;
+  margin: auto;
+  font-size: 55px !important;
+  font-weight: 1000 !important;
+}
+.gallery {
+  padding: 50px 20px;
+  color: #161616;
+}
+.card {
+  margin: 20px auto;
+  float: none;
+}
+.card:hover {
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+}
+.footer h1 {
+  font-weight: bolder;
+}
+.footer {
+  background-color: #ff5f6d;
+  color: #ffffff;
+  padding: 40px 20px;
+  margin: 0;
+}
+.features {
+  padding: 50px 20px;
+}
+.footer button {
+  background-color: #ffffff;
+  color: #ff5f6d;
+  height: 60px;
+  padding: 10px;
+  width: 80%;
+  -moz-border-radius: 80px 80px 80px 80px;
+  -webkit-border-radius: 80px 80px 80px 80px;
+  border-radius: 80px 80px 80px 80px;
+  margin-top: 5%;
+  border: none;
+}
+.footer button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  background-color: #000000;
+  color: #ffffff;
+}
+.footerbrand {
+  background-color: #181818;
+  padding: 40px;
+}
+.logofooter {
+  width: 100%;
+}
